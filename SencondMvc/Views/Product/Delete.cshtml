@@ -1,0 +1,12 @@
+﻿@model ProductViewModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+<div id="container">
+    @*<form ></form>*@
+    <form asp-action="Delete" method="post" asp-controller="Product">
+        <h1>Select Item To Delete</h1>
+        <select asp-for="Product" asp-items="Model.Products"></select>
+        <button class="button-74">Delete</button>
+    </form>
+</div>

@@ -1,0 +1,111 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    background-color: #3B3486;
+    padding: 20px 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    border: 1px solid #FFE9B1;
+    border-radius: 10px;
+}
+
+#container > button{
+    margin: 10px 0;
+}
+
+h1 {
+    color: #FFE9B1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form > * {
+    margin: 20px 0;
+}
+
+form > input {
+    font-size: 20px;
+    padding: 5px
+}
+
+html {
+    min-height: 100%;
+}
+
+.button-74 {
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-74:hover {
+    background-color: #fff;
+}
+
+.button-74:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+table {
+    border: none;
+    border-collapse: collapse;
+    color: #3B3486;
+    margin: 20px 0;
+}
+
+table td, table th {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+table td:first-child {
+    border-left: none;
+}
+
+table td:last-child {
+    border-right: none;
+}
+
+table *{
+    background-color: #FFE9B1;
+}
+/*
+table td + td {
+    border-left: 2px solid black;
+}*/
+
+.button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+}
